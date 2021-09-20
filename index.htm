@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        #frame_main
+        {
+            margin: 0 100px;
+        }
+    </style>
+    <frameset id="frame_main" rows="150px,*,150px" >
+        <frame name="t1" src="T1.htm"  target = "contents" noresize>
+        <frameset cols="260px,*,260px">
+            <frame name="t2" target="t3" src="./T2.htm" scrolling="auto" noresize>
+            <frame name="t3" src="T3.htm" scrolling="auto" target="_self" noresize >
+            <frame name="t4" src="T4.htm">
+        </frameset>
+        <frame name="t5" src="T5.htm" noresize>
+    </frameset>
+</html>
